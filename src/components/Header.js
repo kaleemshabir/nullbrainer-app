@@ -1,9 +1,16 @@
 import '../style.css';
 import photo from '../download.png'
+import mpartial from "./mpartial.mp4";
+
+
 
 const Header = () => {
   return (
-   <div className="header">
+    <>
+     <video loop muted autoPlay id="myVideo" >
+    <source src={mpartial} type="video/mp4"  />
+   </video>
+<div className="header">
   <div className="navbar">
     <div className="logo">
       <img src={photo} />
@@ -22,6 +29,8 @@ const Header = () => {
     </div>
   </div>
    </div>
+    </>
+   
   )
 }
 

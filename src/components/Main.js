@@ -4,6 +4,7 @@ import image from "../cbimage1.jpg";
 const Main = () => {
   return (
     <main>
+    
       <div className="main-section">
       <section id="cards">
         <section>
