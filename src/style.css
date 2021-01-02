@@ -89,7 +89,7 @@ header {
   position: absolute;
   top: 35%;
   text-align: center;
-  left: 25%;
+  left: 30%;
   color: white;
   font-size: 80px;
   font-weight: 400;
@@ -141,6 +141,9 @@ header {
 } 
 
 .image-section {
+  height: 530px;
+}
+.image-section img {
   height: 500px;
 }
 
@@ -158,4 +161,37 @@ header {
     cursor: pointer;
     border: none;
     color: white;
+}
+
+
+/* hwo it works */
+.mpartial_section {
+  background-color: lightgray;
+  
+}
+.howitworks {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  
+}
+.title {
+  background-image: url("cbimage.jpg");
+  background-size: 200px 200px;
+  margin: 5% 0;
+  width: 250px;
+ padding: 70px 0px;
+ background-repeat: no-repeat;
+}
+.title img {
+  width: 60px;
+  height: 50px;
+}
+
+.section_title_text {
+ font-size: 40px;
+ font-weight: 400;
 }
