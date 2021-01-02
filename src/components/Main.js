@@ -23,7 +23,7 @@ const Main = () => {
         </section>
       </section>
       <section className="image-section">
-        <img src={image} id="image1" />
+        <img src={image} id="image1" alt="image1" />
       </section>
       <div >
         <button className="try-btn"> Try Today</button>

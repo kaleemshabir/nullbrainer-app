@@ -8,18 +8,22 @@ ul {
   list-style: none;
 }
 
-.header {
-  bottom: 0;
-  position: sticky;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
+.fix {
+  clear: both;
+  overflow: hidden;
+}
 
+header {
+  overflow: hidden;
+  height: 100vh;
 }
 
 #myVideo {
-  position: fixed;
+  position: absolute;
+  right: 0;
   bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 
 }
 .navbar {
@@ -27,16 +31,26 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #cfd3ce;
-  color: white;
  font-weight: 30px;
- border-bottom: 1px solid black;
+ color: white;
+ border-bottom: 1px solid white;
+ position: sticky;
 }
 .menu {
   font-size: 12px;
   flex: 1;
+  padding-top: 15px;
+
  
 }
+
+.menu ul li:before {
+  color:  #3ac280;
+} 
+
+.menu ul li:hover {
+  color:  #3ac280;
+} 
 
 
 .menu ul {
@@ -69,6 +83,16 @@ ul {
     min-width: 20px;
     cursor: pointer;
     border: none;
+}
+
+.banner-text {
+  position: absolute;
+  top: 35%;
+  text-align: center;
+  left: 25%;
+  color: white;
+  font-size: 80px;
+  font-weight: 400;
 }
 
 .main-section {
